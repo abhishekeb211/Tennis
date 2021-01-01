@@ -36,3 +36,13 @@ where (fcs1) and (fc2) are followed by ReLU activation function
 
 # Testing Performance
 ![](https://github.com/abhishekeb211/Tennis/blob/main/Report_%20MADDPG_Test.png)
+
+## PERFORMANCE iMPROVEMENT
+
+# LEARNING RATE WITH 1E-5 OR LESS
+# KEEPING LEARING RATE DIFFERENT BETWEEN 2 AGENTS 
+# INCREASE EPOCHS 
+# DENSE NETWORK
+# Apply following algorithms to compare with MADDPG:PPO,A3C,D4PG
+
+
