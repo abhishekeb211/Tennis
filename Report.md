@@ -1,5 +1,5 @@
 
-#Learning Algorithm
+## Learning Algorithm
 
 To solve this project Multi Agent Deep Deterministic Policy Gradient algorithm was used. The details of the algorithm can be found in the paper given by OpenAI: Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
 
@@ -9,13 +9,13 @@ The network shows two different Actors (Multi-agents) and a single Critic. MADDP
 In contrast to DDPG instead of training each agent to learn from its own actions, MADDPG incorporates actions taken by all the agents. The environment state depends on the actions taken by all agents (collaboration of the tennis players to maximize rewards) so if we train an agent using just its own action the policy network does not get enough information to come up with a good policy. MADDPG improves upon DDPG by sharing the actions taken by all agents to train each agent.
 
 
-#Actor-Critic Method
+# Actor-Critic Method
 
 Actor-critic methods leverage the strengths of both policy and value based methods.
 
 The Actor uses a policy-based approach and learns how to act by directly estimating the optimal policy and maximizing reward through gradient ascent. Critic uses a value-based approach and learns how to estimate the value, the future cumulative reward, of different state-action pairs. Actor-critic agents are more stable than value-based agents, while requiring fewer training samples than policy-based agents and accelerates the learning process.
 
-## Model Architecture
+# Model Architecture
 
 # The model for the Actor_Network is as follows:
 
@@ -35,4 +35,4 @@ where (fcs1) and (fc2) are followed by ReLU activation function
 ![](Report_Training.png)
 
 # Testing Performance
-![](Report_ MADDPG_Test.png)
+![](https://github.com/abhishekeb211/Tennis/blob/main/Report_%20MADDPG_Test.png)
